@@ -153,7 +153,7 @@ def read_cifar10(data_dir, is_train, batch_size, shuffle):
 #            
 #            # just test one batch
 #            for j in np.arange(BATCH_SIZE):
-#                print('label: %d' %label[j])
+#                print('label: %d' % j)
 #                plt.imshow(img[j,:,:,:])
 #                plt.show()
 #            i+=1
